@@ -62,24 +62,21 @@ const Contact = () => {
             const apiKey = "UnU_rgRja8ndvMP7_";
 
             emailjs.sendForm(serviceId, templateId, refForm.current, apiKey)
-            .then( resolve => {   
-                Swal.fire({
-                    title: "Genial!",
-                    text: "El formulario se envio correctamente!",
-                    icon: "success"
-                });
-                refForm.current.reset()
-            })
+            .then( resolve => console.log("OK"))
             .catch( error => console.error(error))
-            
+            Swal.fire({
+                title: "Genial!",
+                text: "El formulario se envio correctamente!",
+                icon: "success"
+            });
+            refForm.current.reset() 
         }else{
             Swal.fire({
                 icon: "error",
                 title: "Oops...",
                 text: "Error en el formulario, por favor revisalo!",
               });
-        }
-        
+        } 
     }
 
   return (
