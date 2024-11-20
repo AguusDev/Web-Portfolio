@@ -82,15 +82,15 @@ const Projects = () => {
     {
       title: "Practica Prof. (auto care)",
       description: "Html - Css - JS",
-      btnDemo: "",
-      btnCode:"",
+      btnDemo: "https://aguusdev.github.io/PracticaProfesional_2/",
+      btnCode:"https://github.com/AguusDev/PracticaProfesional_2",
       imgUrl: projImg8,
     },
     {
       title: "Landing Page Rotiseria",
       description: "Html - Css - JS",
-      btnDemo: "https://aguusdev.github.io/PracticaProfesional_2/",
-      btnCode:"https://github.com/AguusDev/PracticaProfesional_2",
+      btnDemo: "",
+      btnCode:"",
       imgUrl: projImg9,
     },
     {
